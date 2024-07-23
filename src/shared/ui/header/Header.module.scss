@@ -2,12 +2,14 @@
 
 .container {
   height: 88px;
+  max-width: 1440px;
   background-color: transparent;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 72px;
+  margin: 0 auto;
+  padding: 0 72px;
   position: relative;
 }
 

@@ -2,10 +2,9 @@ import { FC, PropsWithChildren } from "react";
 import s from "./Header.module.scss";
 import { Logo } from "../icons/logo";
 
-const Header: FC<PropsWithChildren> = ({ children }) => {
+const Header: FC = () => {
   return (
     <header className={s.container}>
-      //FIXME исправить расположение
       <div className={s.backgroundBox} />
       <Logo />
       <ul className={s.menuList}>
