@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { CompaniesWidget } from "widgets/companies/ui";
+import { PhilosophyWidget } from "widgets/philosophy/ui";
 import { RobinName } from "widgets/robinName/ui";
 
 const Home: FC = () => {
@@ -7,6 +8,7 @@ const Home: FC = () => {
     <main>
       <RobinName />
       <CompaniesWidget />
+      <PhilosophyWidget />
     </main>
   );
 };

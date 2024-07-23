@@ -1,0 +1,1 @@
+export { PhilosophyWidget } from "./PhilosophyWidget";
