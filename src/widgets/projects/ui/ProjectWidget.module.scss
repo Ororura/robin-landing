@@ -1,8 +1,8 @@
 @import "../../../shared/ui/constants.scss";
 .container {
   max-width: 1440px;
-  margin: auto;
-  height: 2201px;
+  margin: 0 auto 0 auto;
+  height: 2101px;
   padding: 120px 72px 0 72px;
   display: grid;
   grid-template-columns: 1fr 1fr;

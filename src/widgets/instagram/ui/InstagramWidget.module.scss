@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  height: 2201px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.info {
+  width: 720px;
+  height: 600px;
+  background-color: #fbe4ff;
+}
+
+.infoContainer {
+  margin: 120px auto auto 72px;
+}
+
+.name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 55px;
+  color: #181823;
+}
+
+.desc {
+  width: 576px;
+  height: 108px;
+  font-size: 18px;
+  color: #5b6876;
+}
+
+.follow {
+  width: 125px;
+  height: 24px;
+  font-size: 16px;
+  color: #181823;
+  border-bottom: 1px solid #8491a0;
+}

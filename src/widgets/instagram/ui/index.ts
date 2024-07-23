@@ -1,0 +1,1 @@
+export { InstagramWidget } from "./InstagramWidget";
