@@ -1,6 +1,8 @@
 .container {
   display: flex;
-  height: 650px;
+  height: 814px;
+  max-width: 1440px;
+  margin: auto;
   position: relative;
 }
 
@@ -29,6 +31,6 @@
 }
 
 .probably {
-  margin: 0;
+  margin: 32px 0 0 0;
   padding: 0;
 }

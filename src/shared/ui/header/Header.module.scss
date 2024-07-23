@@ -2,11 +2,23 @@
 
 .container {
   height: 88px;
-  background-color: $primaryColor;
+  background-color: transparent;
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 72px;
+  position: relative;
+}
+
+.backgroundBox {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  background-color: #181823;
+  right: 0;
+  top: 0;
+  z-index: -2;
 }
 
 .menuList {

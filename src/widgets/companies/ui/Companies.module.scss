@@ -1,0 +1,15 @@
+@import "../../../shared/ui/constants.scss";
+
+.container {
+  max-width: 1440px;
+  margin: 120px 72px;
+}
+
+.work {
+  color: $second-text-color;
+  text-transform: uppercase;
+}
+
+.companiesText {
+  color: white;
+}

@@ -18,10 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sen.className}>
-        <>
-          <Header />
-          {children}
-        </>
+        <Header></Header>
+        {children}
       </body>
     </html>
   );
