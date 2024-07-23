@@ -1,0 +1,16 @@
+.container {
+  height: 140px;
+  max-width: 1440px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.containerItem {
+  display: flex;
+  border: 1px solid #181823;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  height: 140px;
+}

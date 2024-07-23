@@ -1,8 +1,6 @@
 import { FC } from "react";
 import s from "./SkillsetWidget.module.scss";
-import { ProductIcon } from "./assets/ProductIcon";
-import { VisualIcon } from "./assets/VisualIcon";
-import { MotionIcon } from "./assets/MotionIcon";
+import { MotionIcon, PhotographyIcon, ProductIcon, VisualIcon } from "./assets/";
 
 const SkillsetWidget: FC = () => {
   return (
@@ -43,7 +41,7 @@ const SkillsetWidget: FC = () => {
             </p>
           </div>
           <div className={s.skillsContainer}>
-            <ProductIcon />
+            <PhotographyIcon />
             <p className={s.skillName}>Photography</p>
             <p className={s.skillDesc}>
               Clicking pictures really brings out the creative in me. Photography really makes you look and percieve

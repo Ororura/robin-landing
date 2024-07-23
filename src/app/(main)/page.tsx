@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { CompaniesWidget } from "widgets/companies/ui";
+import { HugWidget } from "widgets/hug/ui";
 import { PhilosophyWidget } from "widgets/philosophy/ui";
 import { RobinName } from "widgets/robinName/ui";
 import { SkillsetWidget } from "widgets/skillset/ui";
@@ -11,6 +12,7 @@ const Home: FC = () => {
       <CompaniesWidget />
       <PhilosophyWidget />
       <SkillsetWidget />
+      <HugWidget />
     </main>
   );
 };
