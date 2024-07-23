@@ -1,0 +1,25 @@
+@import "../constants.scss";
+
+.container {
+  height: 88px;
+  background-color: $primaryColor;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menuList {
+  display: flex;
+  li {
+    list-style: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.contact {
+  background-color: #5221e6;
+}

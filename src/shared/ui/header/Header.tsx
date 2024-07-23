@@ -1,0 +1,19 @@
+import { FC } from "react";
+import s from "./Header.module.scss";
+import { Logo } from "../icons/logo";
+
+const Header: FC = () => {
+  return (
+    <header className={s.container}>
+      <Logo />
+      <ul className={s.menuList}>
+        <li>Experience</li>
+        <li>Work</li>
+        <li>Photography</li>
+        <li className={s.contact}>Contact</li>
+      </ul>
+    </header>
+  );
+};
+
+export { Header };
