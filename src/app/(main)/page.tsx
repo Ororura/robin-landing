@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { CompaniesWidget } from "widgets/companies/ui";
+import { DribbleWidget } from "widgets/dribble/ui";
 import { HugWidget } from "widgets/hug/ui";
 import { InstagramWidget } from "widgets/instagram/ui";
 import { PhilosophyWidget } from "widgets/philosophy/ui";
@@ -17,6 +18,7 @@ const Home: FC = () => {
       <HugWidget />
       <ProjectWidget />
       <InstagramWidget />
+      <DribbleWidget />
     </main>
   );
 };
