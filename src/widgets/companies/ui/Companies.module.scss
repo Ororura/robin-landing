@@ -1,6 +1,7 @@
 @import "../../../shared/ui/constants.scss";
 
 .container {
+  height: 715px;
   max-width: 1440px;
   margin: 120px auto;
   padding: 0 72px;
@@ -23,6 +24,6 @@
 }
 
 .companyEntityContainer {
-    margin-top: 40px;
-    display: flex;
+  margin-top: 40px;
+  display: flex;
 }
