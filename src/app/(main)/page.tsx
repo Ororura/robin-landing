@@ -2,6 +2,7 @@ import { FC } from "react";
 import { CompaniesWidget } from "widgets/companies/ui";
 import { PhilosophyWidget } from "widgets/philosophy/ui";
 import { RobinName } from "widgets/robinName/ui";
+import { SkillsetWidget } from "widgets/skillset/ui";
 
 const Home: FC = () => {
   return (
@@ -9,6 +10,7 @@ const Home: FC = () => {
       <RobinName />
       <CompaniesWidget />
       <PhilosophyWidget />
+      <SkillsetWidget />
     </main>
   );
 };

@@ -8,14 +8,13 @@ const PhilosophyWidget: FC = () => {
       <div className={s.textContainer}>
         <p className={s.philosophy}>Philosophy & values</p>
         <p className={s.philosophyText}>
-          I think everyone wants the same thing - relationship with humanity,
-          peace with the metaphysical, and experience with the universe. I try
-          to grasp these things with my values: authenticity, creativity, &
+          I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and
+          experience with the universe. I try to grasp these things with my values: authenticity, creativity, &
           hospitality.
         </p>
         <p className={s.aboutMe}>More about me</p>
       </div>
-      <Image src="/philosophy.jpg" alt="philosophy" width={720} height={600} />
+      <Image src="/philosophy.jpg" alt="philosophy" width={720} height={600} priority />
     </div>
   );
 };

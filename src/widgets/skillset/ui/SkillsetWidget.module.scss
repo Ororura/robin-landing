@@ -1,0 +1,50 @@
+@import "../../../shared/ui/constants.scss";
+
+.container {
+  display: flex;
+  height: 664px;
+  margin: 120px auto auto auto;
+  max-width: 1440px;
+}
+
+.skillset {
+  color: white;
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  color: $text-color;
+  width: 368px;
+  height: 135px;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.skillsContainer {
+  width: 416px;
+  height: 176px;
+  margin-bottom: 48px;
+}
+
+.skillName {
+  margin: 24px auto auto auto;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.skillDesc {
+  margin: 12px 0 0 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: $text-color;
+  width: 368px;
+  height: 72px;
+}
