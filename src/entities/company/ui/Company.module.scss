@@ -1,0 +1,26 @@
+@import "../../../shared/ui/constants.scss";
+
+.container {
+  width: 416px;
+  height: 247px;
+}
+
+.workNumber {
+  color: $text-color;
+  font-size: 117px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.name {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 16px;
+  color: #8491a0;
+  margin: 22px 0;
+}
