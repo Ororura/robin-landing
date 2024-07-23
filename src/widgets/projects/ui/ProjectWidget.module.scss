@@ -1,0 +1,42 @@
+@import "../../../shared/ui/constants.scss";
+.container {
+  max-width: 1440px;
+  margin: auto;
+  height: 2201px;
+  padding: 120px 72px 0 72px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.projectsText {
+  color: $text-color;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.workText {
+  font-weight: 700;
+  font-size: 55px;
+  color: white;
+  width: 572px;
+  height: 132px;
+  margin-top: 8px;
+}
+
+.viewContainer {
+  width: 247px;
+  height: 75px;
+  display: flex;
+  margin: 91px auto auto auto;
+  border: 1px solid #5221E6;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewProjects {
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+}
