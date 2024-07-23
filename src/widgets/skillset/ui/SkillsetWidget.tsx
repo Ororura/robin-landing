@@ -44,7 +44,7 @@ const SkillsetWidget: FC = () => {
             <PhotographyIcon />
             <p className={s.skillName}>Photography</p>
             <p className={s.skillDesc}>
-              Clicking pictures really brings out the creative in me. Photography really makes you look and percieve
+              Clicking pictures really brings out the creative in me. Photography really makes you look and perceive
               things in a different way.
             </p>
           </div>
