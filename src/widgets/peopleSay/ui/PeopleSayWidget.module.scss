@@ -1,0 +1,39 @@
+@import "../../../shared/ui/constants.scss";
+
+.container {
+  margin: 0 auto 0 auto;
+  max-width: 1440px;
+  height: 2722px;
+}
+
+.gridContainer {
+  margin: 172px auto auto 72px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.peopleSatText {
+  margin: 0;
+  color: white;
+  font-weight: 700;
+  font-size: 55px;
+  width: 588px;
+  height: 132px;
+}
+
+.descPeopleSay {
+  margin: 24px 0 0 0;
+  font-size: 18px;
+  color: $text-color;
+  width: 588px;
+  height: 54px;
+}
+
+.seeAll {
+  margin: 40px 0 0 0 ;
+  font-size: 16px;
+  width: 146px;
+  height: 24px;
+  color: white;
+  border-bottom: 1px solid $grey;
+}
