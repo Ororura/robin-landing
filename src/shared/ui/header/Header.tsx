@@ -1,4 +1,4 @@
-import { FC, PropsWithChildren } from "react";
+import { FC } from "react";
 import s from "./Header.module.scss";
 import { Logo } from "../icons/logo";
 

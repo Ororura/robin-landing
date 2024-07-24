@@ -1,0 +1,40 @@
+@import "../../../shared/ui/constants.scss";
+
+.container {
+  width: 636px;
+  height: 790px;
+  margin-bottom: 120px;
+}
+
+.infoContainer {
+  margin-top: -5px;
+  padding: 64px 0 64px 64px;
+  border: 1px solid $grey;
+}
+
+.text {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  width: 508px;
+  height: 180px;
+}
+
+.name {
+  margin: 64px 0 0 0;
+  font-weight: 700;
+  font-size: 18px;
+  width: 508px;
+  height: 27px;
+  color: $grey;
+}
+
+.position {
+  margin: 4px 0 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  width: 508px;
+  height: 27px;
+  color: $grey;
+}
