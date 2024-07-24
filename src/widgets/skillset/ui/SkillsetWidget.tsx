@@ -1,6 +1,6 @@
 import { FC } from "react";
 import s from "./SkillsetWidget.module.scss";
-import { MotionIcon, PhotographyIcon, ProductIcon, VisualIcon } from "./assets/";
+import { MotionIcon, PhotographyIcon, ProductIcon, VisualIcon } from "./assets";
 
 const SkillsetWidget: FC = () => {
   return (
