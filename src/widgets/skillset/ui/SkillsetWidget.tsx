@@ -18,7 +18,7 @@ const SkillsetWidget: FC = () => {
             <ProductIcon />
             <p className={s.skillName}>Product Design</p>
             <p className={s.skillDesc}>
-              Working at Facebook has taught me a lot about how to understand users, solve problems and build great
+              Working at Facebook has taught me a lot about how to understand ccusers, solve problems and build great
               products.
             </p>
           </div>
