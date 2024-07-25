@@ -2,7 +2,7 @@
 
 .container {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   margin: 0 auto;
 }
@@ -31,4 +31,25 @@
   margin: 134px auto auto 72px;
   width: 116px;
   border-bottom: 1px solid #5b6876;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  width: 720px;
+  height: 600;
+}
+
+@media (max-width: 768px) {
+  .aboutMe {
+    margin: 67px 40px 0 40px;
+  }
+
+  .philosophy {
+    margin: 80px 40px auto 40px;
+  }
+
+  .philosophyText {
+    margin: 24px 40px auto 40px;
+  }
 }

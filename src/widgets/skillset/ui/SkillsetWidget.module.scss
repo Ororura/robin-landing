@@ -49,3 +49,15 @@
   width: 368px;
   height: 72px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+
+  .description {
+    width: 688px;
+    height: 171px;
+		margin: 0;
+  }
+}

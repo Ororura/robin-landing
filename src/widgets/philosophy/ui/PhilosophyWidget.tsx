@@ -14,7 +14,9 @@ const PhilosophyWidget: FC = () => {
         </p>
         <p className={s.aboutMe}>More about me</p>
       </div>
-      <Image src="/philosophy.jpg" alt="philosophy" width={720} height={600} priority />
+      <div className={s.image}>
+        <Image src="/philosophy.jpg" alt="philosophy" fill objectFit='cover' priority />
+      </div>
     </div>
   );
 };

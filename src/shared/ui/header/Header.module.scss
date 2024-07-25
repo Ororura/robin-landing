@@ -38,3 +38,9 @@
 .contact {
   background-color: #5221e6;
 }
+
+@media (max-width: 768px) {
+  .backgroundBox {
+    display: none;
+  }
+}

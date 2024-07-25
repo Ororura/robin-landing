@@ -1,8 +1,8 @@
 @import "../../../shared/ui/constants.scss";
 
 .container {
-  width: 416px;
-  height: 247px;
+  max-width: 416px;
+  min-height: 247px;
 }
 
 .workNumber {
@@ -23,4 +23,10 @@
   font-size: 16px;
   color: #8491a0;
   margin: 22px 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-right: 40px;
+  }
 }
