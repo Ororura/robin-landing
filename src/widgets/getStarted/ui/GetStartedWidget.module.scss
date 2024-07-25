@@ -1,0 +1,66 @@
+@import "../../../shared/ui/constants.scss";
+
+.container {
+  margin: 0 auto 0 auto;
+  max-width: 1440px;
+  height: 731px;
+  box-sizing: border-box;
+  padding: 120px 0 120px 182px;
+  display: flex;
+}
+
+.getStartText {
+  margin: 0;
+  font-weight: 700;
+  font-size: 55px;
+  color: white;
+  width: 526px;
+  height: 66px;
+}
+
+.desc {
+  margin: 0;
+  font-size: 18px;
+  color: $text-color;
+}
+
+.formInput {
+  width: 526px;
+  height: 491px;
+  box-sizing: border-box;
+  margin: 0 0 0 24px;
+
+  p {
+    margin: 0 0 8px 0;
+    color: white;
+  }
+
+  textarea,
+  input {
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding: 15px;
+    font-size: 18px;
+    white-space: "normal";
+    overflow-wrap: "break-word";
+    background-color: #181823;
+    width: 526px;
+    height: 50px;
+    color: white;
+    border: 0;
+    display: block;
+  }
+
+  button {
+    width: 526px;
+    height: 75px;
+    background-color: #5221e6;
+		border: 0;
+		color: white;
+		font-weight: 700;
+  }
+
+  #messageInput {
+    height: 132px;
+  }
+}
