@@ -1,6 +1,8 @@
 import { FC } from "react";
+import { Footer } from "shared/ui/footer";
 import { CompaniesWidget } from "widgets/companies/ui";
 import { DribbleWidget } from "widgets/dribble/ui";
+import { GetStartedWidget } from "widgets/getStarted/ui";
 import { HugWidget } from "widgets/hug/ui";
 import { InstagramWidget } from "widgets/instagram/ui";
 import { PeopleSayWidget } from "widgets/peopleSay/ui";
@@ -23,6 +25,8 @@ const Home: FC = () => {
       <DribbleWidget />
       <PeopleSayWidget />
       <PhotographyWidget />
+      <GetStartedWidget />
+      <Footer />
     </main>
   );
 };

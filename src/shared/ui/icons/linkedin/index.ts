@@ -1,0 +1,1 @@
+export { LinkedinLogo } from "./LinkedinLogo";

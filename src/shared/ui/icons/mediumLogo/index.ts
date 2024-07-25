@@ -1,0 +1,1 @@
+export { MediumLogo } from "./MediumLogo";
