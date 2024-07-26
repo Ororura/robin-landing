@@ -2,7 +2,7 @@
 .container {
   max-width: 1440px;
   margin: 0 auto 0 auto;
-  height: 2101px;
+  min-height: 2101px;
   padding: 120px 72px 0 72px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -39,4 +39,14 @@
   font-size: 18px;
   color: white;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+	.container {
+		display: block;
+	}
+
+	.viewContainer {
+		display: none;
+	}
 }

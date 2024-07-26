@@ -15,7 +15,9 @@ const InstagramWidget: FC = () => {
           <p className={s.follow}>Follow me on IG</p>
         </div>
       </div>
-      <Image src="/plane.png" alt="plane" width={720} height={600} />
+      <div className={s.image}>
+        <Image src="/plane.png" alt="plane" fill objectFit='cover'/>
+      </div>
     </div>
   );
 };

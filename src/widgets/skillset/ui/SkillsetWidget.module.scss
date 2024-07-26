@@ -29,8 +29,8 @@
 }
 
 .skillsContainer {
-  width: 416px;
-  height: 176px;
+  max-width: 416px;
+  min-height: 176px;
   margin-bottom: 48px;
 }
 
@@ -46,13 +46,14 @@
   font-weight: 400;
   font-size: 16px;
   color: $text-color;
-  width: 368px;
-  height: 72px;
+  max-width: 368px;
+  min-height: 72px;
 }
 
 @media (max-width: 768px) {
   .container {
     display: block;
+		padding: 0 40px;
   }
 
   .description {
@@ -60,4 +61,9 @@
     height: 171px;
 		margin: 0;
   }
+
+	.skillName {
+		max-width: 284px;
+		max-height: 120px;
+	}
 }

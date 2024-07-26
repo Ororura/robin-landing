@@ -6,8 +6,8 @@
 }
 
 .info {
-  width: 720px;
-  height: 600px;
+  max-width: 720px;
+  min-height: 600px;
   background-color: #fbe4ff;
 }
 
@@ -23,8 +23,8 @@
 }
 
 .desc {
-  width: 576px;
-  height: 108px;
+  max-width: 576px;
+  min-height: 108px;
   font-size: 18px;
   color: #5b6876;
 }
@@ -35,4 +35,24 @@
   font-size: 16px;
   color: #181823;
   border-bottom: 1px solid #8491a0;
+}
+
+.image {
+  position: relative;
+  width: 720px;
+  min-height: 600px;
+}
+
+@media (max-width: 768px) {
+  .info {
+    max-width: 384px;
+  }
+
+  .image {
+    width: 384px;
+  }
+
+	.infoContainer {
+		margin: 80px 40px;
+	}
 }
