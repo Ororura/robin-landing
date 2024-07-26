@@ -1,1 +1,1 @@
-export { LinkedinLogo } from "./LinkedinLogo";
+export { LinkedinLogo } from './LinkedinLogo'

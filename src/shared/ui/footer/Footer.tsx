@@ -1,9 +1,9 @@
-import { FC } from "react";
-import s from "./Footer.module.scss";
-import { MediumLogo } from "../icons/mediumLogo";
-import { TwitterLogo } from "../icons/twitter";
-import { DribbleLogo } from "../icons/dribble";
-import { LinkedinLogo } from "../icons/linkedin";
+import { FC } from 'react'
+import s from './Footer.module.scss'
+import { MediumLogo } from '../icons/mediumLogo'
+import { TwitterLogo } from '../icons/twitter'
+import { DribbleLogo } from '../icons/dribble'
+import { LinkedinLogo } from '../icons/linkedin'
 
 const Footer: FC = () => {
   return (
@@ -31,7 +31,7 @@ const Footer: FC = () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export { Footer };
+export { Footer }

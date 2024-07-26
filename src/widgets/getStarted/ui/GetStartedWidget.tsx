@@ -1,11 +1,11 @@
-"use client";
-import { FC, FormEventHandler, useCallback } from "react";
-import s from "./GetStartedWidget.module.scss";
+'use client'
+import { FC, FormEventHandler, useCallback } from 'react'
+import s from './GetStartedWidget.module.scss'
 
 const GetStartedWidget: FC = () => {
-  const handler = useCallback<FormEventHandler>((e) => {
-    e.preventDefault();
-  }, []);
+  const handler = useCallback<FormEventHandler>(e => {
+    e.preventDefault()
+  }, [])
 
   return (
     <div className={s.container}>
@@ -15,15 +15,15 @@ const GetStartedWidget: FC = () => {
       </div>
       <form onSubmit={handler} className={s.formInput}>
         <p>Name</p>
-        <input type="text" />
+        <input type='text' />
         <p>Email</p>
-        <input type="text" />
+        <input type='text' />
         <p>Message</p>
         <textarea id={s.messageInput} />
-        <button type="submit">Let’s get started</button>
+        <button type='submit'>Let’s get started</button>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export { GetStartedWidget };
+export { GetStartedWidget }

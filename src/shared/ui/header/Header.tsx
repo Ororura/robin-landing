@@ -1,6 +1,6 @@
-import { FC } from "react";
-import s from "./Header.module.scss";
-import { Logo } from "../icons/logo";
+import { FC } from 'react'
+import s from './Header.module.scss'
+import { Logo } from '../icons/logo'
 
 const Header: FC = () => {
   return (
@@ -14,7 +14,7 @@ const Header: FC = () => {
         <li className={s.contact}>Contact</li>
       </ul>
     </header>
-  );
-};
+  )
+}
 
-export { Header };
+export { Header }

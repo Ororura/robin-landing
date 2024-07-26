@@ -1,1 +1,1 @@
-export { CompaniesWidget } from "./CompaniesWidget";
+export { CompaniesWidget } from './CompaniesWidget'

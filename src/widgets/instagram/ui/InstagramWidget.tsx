@@ -1,6 +1,6 @@
-import { FC } from "react";
-import Image from "next/image";
-import s from "./InstagramWidget.module.scss";
+import { FC } from 'react'
+import Image from 'next/image'
+import s from './InstagramWidget.module.scss'
 
 const InstagramWidget: FC = () => {
   return (
@@ -16,10 +16,10 @@ const InstagramWidget: FC = () => {
         </div>
       </div>
       <div className={s.image}>
-        <Image src="/plane.png" alt="plane" fill objectFit='cover'/>
+        <Image src='/plane.png' alt='plane' fill objectFit='cover' />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { InstagramWidget };
+export { InstagramWidget }

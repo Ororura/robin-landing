@@ -1,6 +1,6 @@
-import { FC } from "react";
-import Image from "next/image";
-import s from "./PhotographyWidget.module.scss";
+import { FC } from 'react'
+import Image from 'next/image'
+import s from './PhotographyWidget.module.scss'
 
 const PhotographyWidget: FC = () => {
   return (
@@ -25,14 +25,14 @@ const PhotographyWidget: FC = () => {
           </li>
         </ul>
         <div className={s.photoContainer}>
-          <Image src="/Rectangle 47.png" alt="Rectangle 47.png" width={306} height={420} />
-          <Image src="/Rectangle 48.png" alt="Rectangle 47.png" width={306} height={420} />
-          <Image src="/Rectangle 49.png" alt="Rectangle 47.png" width={306} height={420} />
-          <Image src="/Rectangle 50.png" alt="Rectangle 47.png" width={306} height={420} />
+          <Image src='/Rectangle 47.png' alt='Rectangle 47.png' width={306} height={420} />
+          <Image src='/Rectangle 48.png' alt='Rectangle 47.png' width={306} height={420} />
+          <Image src='/Rectangle 49.png' alt='Rectangle 47.png' width={306} height={420} />
+          <Image src='/Rectangle 50.png' alt='Rectangle 47.png' width={306} height={420} />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { PhotographyWidget };
+export { PhotographyWidget }

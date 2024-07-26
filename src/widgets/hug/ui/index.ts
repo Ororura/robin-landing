@@ -1,1 +1,1 @@
-export { HugWidget } from "./HugWidget";
+export { HugWidget } from './HugWidget'

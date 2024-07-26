@@ -1,6 +1,6 @@
-import { FC } from "react";
-import s from "./HugWidget.module.scss";
-import { CBREIcon, EpiqIcon, FIcon, LeafIcon } from "./assets";
+import { FC } from 'react'
+import s from './HugWidget.module.scss'
+import { CBREIcon, EpiqIcon, FIcon, LeafIcon } from './assets'
 
 const HugWidget: FC = () => {
   return (
@@ -18,7 +18,7 @@ const HugWidget: FC = () => {
         <LeafIcon />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { HugWidget };
+export { HugWidget }

@@ -1,13 +1,13 @@
-import { FC } from "react";
-import Image from "next/image";
-import s from "./PeopleSay.module.scss";
+import { FC } from 'react'
+import Image from 'next/image'
+import s from './PeopleSay.module.scss'
 
 type Props = {
-  img: string;
-  text: string;
-  name: string;
-  position: string;
-};
+  img: string
+  text: string
+  name: string
+  position: string
+}
 
 const PeopleSay: FC<Props> = ({ img, name, text, position }) => {
   return (
@@ -19,7 +19,7 @@ const PeopleSay: FC<Props> = ({ img, name, text, position }) => {
         <p className={s.position}>{position}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { PeopleSay };
+export { PeopleSay }

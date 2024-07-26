@@ -1,1 +1,1 @@
-export { PhilosophyWidget } from "./PhilosophyWidget";
+export { PhilosophyWidget } from './PhilosophyWidget'

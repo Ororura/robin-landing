@@ -1,1 +1,1 @@
-export { DribbleLogo } from "./DribbleLogo";
+export { DribbleLogo } from './DribbleLogo'

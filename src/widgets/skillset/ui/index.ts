@@ -1,1 +1,1 @@
-export { SkillsetWidget } from "./SkillsetWidget";
+export { SkillsetWidget } from './SkillsetWidget'

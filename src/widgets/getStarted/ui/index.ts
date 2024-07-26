@@ -1,1 +1,1 @@
-export { GetStartedWidget } from "./GetStartedWidget";
+export { GetStartedWidget } from './GetStartedWidget'

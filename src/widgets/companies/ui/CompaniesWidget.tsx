@@ -1,11 +1,11 @@
-"use client";
-import { FC } from "react";
-import s from "./Companies.module.scss";
-import { Company } from "entities/company/ui";
-import { useAppSelector } from "app/providers/store";
+'use client'
+import { FC } from 'react'
+import { Company } from 'entities/company/ui'
+import { useAppSelector } from 'app/providers/store'
+import s from './Companies.module.scss'
 
 const CompaniesWidget: FC = () => {
-  const companiesSlice = useAppSelector((state) => state.company.value);
+  const companiesSlice = useAppSelector(state => state.company.value)
   return (
     <div className={s.container}>
       <p className={s.work}>work experience</p>
@@ -25,7 +25,7 @@ const CompaniesWidget: FC = () => {
           ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { CompaniesWidget };
+export { CompaniesWidget }

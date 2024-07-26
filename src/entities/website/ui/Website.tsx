@@ -1,12 +1,12 @@
-import { FC } from "react";
-import Image from "next/image";
-import s from "./Website.module.scss";
+import { FC } from 'react'
+import Image from 'next/image'
+import s from './Website.module.scss'
 
 type Props = {
-  img: string;
-  name: string;
-  desc: string;
-};
+  img: string
+  name: string
+  desc: string
+}
 
 const Website: FC<Props> = ({ img, name, desc }) => {
   return (
@@ -17,7 +17,7 @@ const Website: FC<Props> = ({ img, name, desc }) => {
         <p className={s.description}>{desc}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { Website };
+export { Website }

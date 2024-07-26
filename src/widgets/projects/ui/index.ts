@@ -1,1 +1,1 @@
-export { ProjectWidget } from "./ProjectsWidget";
+export { ProjectWidget } from './ProjectsWidget'

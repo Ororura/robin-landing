@@ -1,1 +1,1 @@
-export { PhotographyWidget } from "./PhotographyWidget";
+export { PhotographyWidget } from './PhotographyWidget'

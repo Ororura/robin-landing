@@ -1,1 +1,1 @@
-export { PeopleSayWidget } from "./PeopleSayWidget";
+export { PeopleSayWidget } from './PeopleSayWidget'

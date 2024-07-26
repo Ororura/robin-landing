@@ -1,1 +1,1 @@
-export { TwitterLogo } from "./TwitterLogo";
+export { TwitterLogo } from './TwitterLogo'

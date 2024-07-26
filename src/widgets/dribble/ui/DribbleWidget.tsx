@@ -1,6 +1,6 @@
-import { FC } from "react";
-import Image from "next/image";
-import s from "./DribbleWidget.module.scss";
+import { FC } from 'react'
+import Image from 'next/image'
+import s from './DribbleWidget.module.scss'
 
 const DribbleWidget: FC = () => {
   return (
@@ -14,10 +14,10 @@ const DribbleWidget: FC = () => {
         <p className={s.follow}>Follow me on Dribbble</p>
       </div>
       <div className={s.imageContainer}>
-        <Image src="/dribble.png" width={1076} height={676} alt="dribble" />
+        <Image src='/dribble.png' width={1076} height={676} alt='dribble' />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { DribbleWidget };
+export { DribbleWidget }

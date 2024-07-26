@@ -1,1 +1,1 @@
-export { MediumLogo } from "./MediumLogo";
+export { MediumLogo } from './MediumLogo'

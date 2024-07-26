@@ -1,6 +1,6 @@
-import { FC } from "react";
-import s from "./PeopleSayWidget.module.scss";
-import { PeopleSay } from "entities/peopleSay/ui";
+import { FC } from 'react'
+import { PeopleSay } from 'entities/peopleSay/ui'
+import s from './PeopleSayWidget.module.scss'
 
 const PeopleSayWidget: FC = () => {
   return (
@@ -15,27 +15,27 @@ const PeopleSayWidget: FC = () => {
         </div>
         <div>
           <PeopleSay
-            img="/people1.png"
-            text="‘’Robin is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design.’’"
-            name="Richard Owens"
-            position="CEO, Company 1"
+            img='/people1.png'
+            text='‘’Robin is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design.’’'
+            name='Richard Owens'
+            position='CEO, Company 1'
           />
           <PeopleSay
-            img="/people2.png"
-            text="‘’I think Robin has an incredible gift. It has been an absolute pleasure to work with a designer of this caliber.’’"
-            name="Emily Parker"
-            position="CEO, Company 2"
+            img='/people2.png'
+            text='‘’I think Robin has an incredible gift. It has been an absolute pleasure to work with a designer of this caliber.’’'
+            name='Emily Parker'
+            position='CEO, Company 2'
           />
           <PeopleSay
-            img="/people3.png"
-            text="‘’All I can say that, Robin is a phenomenal designer. The wavelength at which he thinks is astounding. I love the focus, passion and attention to detail in the design.’’"
-            name="Vincent  Rudd"
-            position="CEO, Company 3"
+            img='/people3.png'
+            text='‘’All I can say that, Robin is a phenomenal designer. The wavelength at which he thinks is astounding. I love the focus, passion and attention to detail in the design.’’'
+            name='Vincent  Rudd'
+            position='CEO, Company 3'
           />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { PeopleSayWidget };
+export { PeopleSayWidget }

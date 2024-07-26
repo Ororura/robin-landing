@@ -1,1 +1,1 @@
-export { DribbleWidget } from "./DribbleWidget";
+export { DribbleWidget } from './DribbleWidget'

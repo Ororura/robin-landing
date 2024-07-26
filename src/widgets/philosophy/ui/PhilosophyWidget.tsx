@@ -1,6 +1,6 @@
-import { FC } from "react";
-import Image from "next/image";
-import s from "./PhilosophyWidget.module.scss";
+import { FC } from 'react'
+import Image from 'next/image'
+import s from './PhilosophyWidget.module.scss'
 
 const PhilosophyWidget: FC = () => {
   return (
@@ -15,10 +15,10 @@ const PhilosophyWidget: FC = () => {
         <p className={s.aboutMe}>More about me</p>
       </div>
       <div className={s.image}>
-        <Image src="/philosophy.jpg" alt="philosophy" fill objectFit='cover' priority />
+        <Image src='/philosophy.jpg' alt='philosophy' fill objectFit='cover' priority />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { PhilosophyWidget };
+export { PhilosophyWidget }

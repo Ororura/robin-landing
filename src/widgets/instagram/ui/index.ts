@@ -1,1 +1,1 @@
-export { InstagramWidget } from "./InstagramWidget";
+export { InstagramWidget } from './InstagramWidget'
