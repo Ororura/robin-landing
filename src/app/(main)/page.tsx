@@ -3,7 +3,7 @@ import { Footer } from 'shared/ui/footer'
 import { CompaniesWidget } from 'widgets/companies/ui'
 import { DribbleWidget } from 'widgets/dribble/ui'
 import { GetStartedWidget } from 'widgets/getStarted/ui'
-import { HugWidget } from 'widgets/hug/ui'
+import { CompaniesLogoWidget } from 'widgets/companiesLogoWidget/ui'
 import { InstagramWidget } from 'widgets/instagram/ui'
 import { PeopleSayWidget } from 'widgets/peopleSay/ui'
 import { PhilosophyWidget } from 'widgets/philosophy/ui'
@@ -19,7 +19,7 @@ const Home: FC = () => {
       <CompaniesWidget />
       <PhilosophyWidget />
       <SkillsetWidget />
-      <HugWidget />
+      <CompaniesLogoWidget />
       <ProjectWidget />
       <InstagramWidget />
       <DribbleWidget />

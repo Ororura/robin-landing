@@ -2,7 +2,7 @@ import { FC } from 'react'
 import s from './HugWidget.module.scss'
 import { CBREIcon, EpiqIcon, FIcon, LeafIcon } from './assets'
 
-const HugWidget: FC = () => {
+const CompaniesLogoWidget: FC = () => {
   return (
     <div className={s.container}>
       <div className={s.containerItem}>
@@ -21,4 +21,4 @@ const HugWidget: FC = () => {
   )
 }
 
-export { HugWidget }
+export { CompaniesLogoWidget }

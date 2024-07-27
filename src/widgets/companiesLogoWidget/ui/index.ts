@@ -1,0 +1,1 @@
+export { CompaniesLogoWidget } from './CompaniesLogoWidget'
