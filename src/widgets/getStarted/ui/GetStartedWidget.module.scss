@@ -65,3 +65,24 @@
     height: 132px;
   }
 }
+
+@media (max-width: 768px) {
+	.container {
+		padding: 80px 40px 80px 40px;
+	}
+
+	.getStartText {
+		width: 332px;
+		height: 132px;
+	}
+
+	.formInput {
+		width: 332px;
+		height: 491px;
+
+		textarea,
+		input, button {
+			width: 332px;
+		}
+	}
+}

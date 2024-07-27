@@ -33,13 +33,26 @@
 }
 
 .imageContainer {
+	position: relative;
+	width: 1076px; 
+	height: 676px;
 	margin-top: 156px;
   display: flex;
   justify-content: center;
 }
 
 @media (max-width: 768px) {
+	.container {
+		min-height: 1008px;
+	}
+
 	.containerInfo {
 		padding: 80px 40px 0 40px;
+	}
+
+	.imageContainer {
+		width: 688px;
+		height: 516px;
+		margin: 120px 40px auto 40px;
 	}
 }

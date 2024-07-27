@@ -3,7 +3,7 @@
 .container {
   margin: 0 auto 0 auto;
   max-width: 1440px;
-  height: 959px;
+  min-height: 959px;
   box-sizing: border-box;
   padding: 120px 72px 0 72px;
 }
@@ -54,4 +54,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
+}
+
+@media (max-width: 768px) {
+	.container {
+		padding: 80px 40px 80px 40px;
+	}
+
+	.photoContainer {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.desc {
+		width: 689px;
+	}
 }

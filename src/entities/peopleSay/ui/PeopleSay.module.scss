@@ -1,9 +1,15 @@
 @import "../../../shared/ui/constants.scss";
 
 .container {
-  width: 636px;
-  height: 790px;
+  max-width: 636px;
+  min-height: 790px;
   margin-bottom: 120px;
+}
+
+.image {
+	position: relative;
+	width: 636px;
+	height: 360px;
 }
 
 .infoContainer {
@@ -17,16 +23,16 @@
   color: white;
   font-size: 24px;
   font-weight: 700;
-  width: 508px;
-  height: 180px;
+  max-width: 508px;
+  min-height: 180px;
 }
 
 .name {
   margin: 64px 0 0 0;
   font-weight: 700;
   font-size: 18px;
-  width: 508px;
-  height: 27px;
+  max-width: 508px;
+  min-height: 27px;
   color: $grey;
 }
 
@@ -34,7 +40,18 @@
   margin: 4px 0 0 0;
   font-weight: 400;
   font-size: 18px;
-  width: 508px;
-  height: 27px;
+  max-width: 508px;
+  min-height: 27px;
   color: $grey;
+}
+
+@media (max-width: 768px) {
+	.image {
+		width: 332px;
+		height: 360px;
+	}
+
+	.infoContainer {
+		padding: 32px;
+	}
 }

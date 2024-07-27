@@ -12,7 +12,9 @@ type Props = {
 const PeopleSay: FC<Props> = ({ img, name, text, position }) => {
   return (
     <div className={s.container}>
-      <Image src={img} width={636} height={360} alt={img} />
+      <div className={s.image}>
+        <Image src={img} fill objectFit='cover' alt={img} />
+      </div>
       <div className={s.infoContainer}>
         <p className={s.text}>{text}</p>
         <p className={s.name}>{name}</p>

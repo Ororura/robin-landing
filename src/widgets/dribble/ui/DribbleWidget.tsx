@@ -14,7 +14,7 @@ const DribbleWidget: FC = () => {
         <p className={s.follow}>Follow me on Dribbble</p>
       </div>
       <div className={s.imageContainer}>
-        <Image src='/dribble.png' width={1076} height={676} alt='dribble' />
+        <Image src='/dribble.png' fill objectFit='cover' alt='dribble' />
       </div>
     </div>
   )
